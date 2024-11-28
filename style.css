@@ -430,9 +430,9 @@ body {
  .testimonial-section {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     width: 75%;
-    padding: 20px;
+    padding: 20px 0px;
     gap: 30px;
 }
 
@@ -443,14 +443,14 @@ body {
 .test-left{
     display: flex;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: flex-start; 
     flex-direction: column;
 }
 
 .testimonial-content {
     display: flex;
     justify-content: flex-start;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
     padding: 20px 0px;
   }
@@ -469,27 +469,27 @@ body {
  .testimonial-box {
     background-color: #c8a610;
     border-radius: 10px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .testimonial-box p{
-    padding: 10px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 23px;
     gap: 20px;
-    width: 40%; 
+   
 }
 .client-info{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 10px 0;
     gap: 80px;
 }
 
 .info-right {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: ;
+    align-items: flex-end;
     gap: 20px;
 }
 .arrow-circle {
@@ -675,91 +675,3 @@ body {
     text-align: center;
     padding: 40px 0px;
 }
-/* .testimonial-section {
-    display: flex;
-    align-items: flex-start; 
-    justify-content: space-between; 
-    width: 75%;
-    padding: 20px;
-    gap: 30px;
-}
-
-.test-left {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-}
-
-.testimonial-content {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.testimonial-content h2 {
-    font-size: 50px;
-    margin: 0 0 20px; 
-}
-
-.testimonial-content p {
-    font-size: 20px;
-    margin: 0 0 20px; 
-}
-
-.testimonial-box {
-    background-color: #c8a610;
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%; 
-    box-sizing: border-box; 
-}
-
-.testimonial-box p {
-    padding: 10px 0;
-    font-size: 20px;
-    line-height: 1.5; 
-    width: auto; 
-}
-
-.client-info {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 10px 0;
-    gap: 40px;
-}
-
-.info-left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px; 
-}
-
-.info-left img {
-    border-radius: 50%; 
-    width: 50px;
-    height: 50px;
-}
-
-.arrow-circle {
-    background-color: goldenrod;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 16px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px; 
-    height: 30px;
-}
-
-.testimonial-image img {
-    max-width: 100%; 
-    height: auto; 
-    display: block;
-}
- */
